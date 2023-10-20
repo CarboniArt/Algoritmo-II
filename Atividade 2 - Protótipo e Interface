@@ -1,0 +1,53 @@
+/*Ex1
+#include <iostream>
+using namespace std;
+//função como eu faria semestre passado
+int main()
+{
+    int n, total;
+    cin >> n;
+    do{
+    total += n;
+    n--;
+    } while (n != 0);
+    cout << total << endl;
+    return 0;
+}
+
+
+//função com protótipo e interface
+int somatorio(int n);
+
+int main(){
+    int n, total;
+    cin >> n;
+    total = somatorio(n);
+    cout << total << end;
+    return 0;
+}
+
+int somatorio(int n) {
+    int total = 0;
+    while (n > 0){
+        total += n;
+        n--;
+    }
+    return total;
+}
+*/
+#include <iostream>
+using namespace std;
+int main (){
+    int ano;
+    cin >> ano;
+    if (bissexto(ano)){
+        cout << ano << "e um ano bissexto" << endl;
+    }
+    else {
+        cout << ano << "nao e um ano bissexto" << endl;
+    }
+}
+
+bool bissexto(int ano){
+    if
+}
