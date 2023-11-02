@@ -133,10 +133,31 @@ int subtracao(int &numero1){
 }
 */
 
+/*
+//ex7
 #include <iostream>
 using namespace std;
-
-
+void vet(int x[]);
+int main(){
+int x[8], y;
+for(int i=0; i<8; i++){   
+    cin >> y;
+    x[i]=y;
+}
+vet(x);
+}
+void vet(int x[]){
+    int aux=7;
+    int xcerto[8];
+    for(int i=0; i<8; i++){
+        xcerto[i]=x[aux];
+        aux--;
+    }
+    for(int i=0; i<8; i++){
+        cout << xcerto[i];
+    }
+}
+*/
 
 /*
 //ex8
